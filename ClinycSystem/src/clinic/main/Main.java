@@ -16,16 +16,16 @@ public class Main {
       
         Patient patient = new Patient();
         patient.setIdNumber("123");
-        patient.setFullName("Ana López");
+        patient.setFullName("Susana Pérez");
         
         User doctor = new User();
-        doctor.setFullName("Dr. Pérez");
+        doctor.setFullName("Dr. Gonzalo");
         doctor.setUsername("doctor1");
-        doctor.setRole(Role.DOCTOR); // si tienes ese valor en el enum
+        doctor.setRole(Role.DOCTOR); 
 
         DiagnosticOrder diagnostic = new DiagnosticOrder();
         diagnostic.setQuantity(1);
-        diagnostic.setType(OrderItemType.DIAGNOSTIC); // necesitas el setter en OrderItem
+        diagnostic.setType(OrderItemType.DIAGNOSTIC); 
 
         Order order = new Order();
         order.setOrderNumber(1);
